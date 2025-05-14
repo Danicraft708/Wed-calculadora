@@ -79,9 +79,8 @@ function reciprocal()
 	document.getElementById("display").value = displayValue;
 }
 
-const toggleModeBtn = document.getElementById('toggleMode');
-
-toggleModeBtn.addEventListener('click', () => {
-  document.body.classList.toggle('light-mode');
+document.querySelector("button").addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
 });
+
 
