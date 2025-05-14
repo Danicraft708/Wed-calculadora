@@ -76,4 +76,39 @@ button:nth-child(23)
 	background-color: #fa7426;
 }
 
+:root {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --btn-bg: #838383;
+  --btn-hover: #b80505;
+  --display-bg: #9add80;
+}
+
+.light-mode {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --btn-bg: #cccccc;
+  --btn-hover: #ff6666;
+  --display-bg: #d4fcd9;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  background-color: var(--btn-bg);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--btn-hover);
+}
+
+#display {
+  background-color: var(--display-bg);
+  color: var(--text-color);
+}
 
