@@ -82,7 +82,7 @@ button:nth-child(23)
   --btn-bg: #838383;
   --btn-hover: #b80505;
   --display-bg: #9add80;
-  --calculator-bg: #000000;	
+  --calculator-bg: #ffffff;	
 }
 
 .light-mode {
@@ -91,7 +91,7 @@ button:nth-child(23)
   --btn-bg: #cccccc;
   --btn-hover: #ff6666;
   --display-bg: #d4fcd9;
-  --calculator-bg: #ffffff; 	
+  --calculator-bg: #000000; 	
 }
 
 body {
