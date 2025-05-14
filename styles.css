@@ -10,7 +10,7 @@ body
 }
 
 .calculator {
-	background-color: #000000;
+	background-color: var(--calculator-bg);
 	border-radius: 10px;
 	box-shadow: 0 4px rgba(0, 0, 0, 0.1);
 	padding: 20px;
@@ -82,7 +82,7 @@ button:nth-child(23)
   --btn-bg: #838383;
   --btn-hover: #b80505;
   --display-bg: #9add80;
-  --calculator-bg: #ffffff;	
+  --calculator-bg: #000000;	
 }
 
 .light-mode {
@@ -91,7 +91,7 @@ button:nth-child(23)
   --btn-bg: #cccccc;
   --btn-hover: #ff6666;
   --display-bg: #d4fcd9;
-  --calculator-bg: #000000; 	
+  --calculator-bg: #ffffff; 	
 }
 
 body {
