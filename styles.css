@@ -4,7 +4,7 @@
   --btn-bg: #838383;
   --btn-hover: #b80505;
   --display-bg: #9add80;
-  --calculator-bg: #ffffff; /* Calculadora blanca en modo oscuro */
+  --calculator-bg: #80c6ff; /* Calculadora blanca en modo oscuro */
 }
 
 body.light-mode {
