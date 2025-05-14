@@ -77,12 +77,12 @@ button:nth-child(23)
 }
 
 :root {
-  --bg-color: #ffffff;
+  --bg-color: #000000;
   --text-color: #ffffff;
   --btn-bg: #838383;
   --btn-hover: #b80505;
   --display-bg: #9add80;
-  --calculator-bg: #000000;	
+  --calculator-bg: #ffffff;	
 }
 
 body.light-mode {
@@ -91,7 +91,7 @@ body.light-mode {
   --btn-bg: #cccccc;
   --btn-hover: #ff6666;
   --display-bg: #d4fcd9;
-  --calculator-bg: #ffffff;
+  --calculator-bg: #000000;
 }
 
 body {
