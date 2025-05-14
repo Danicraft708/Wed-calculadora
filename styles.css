@@ -75,7 +75,7 @@ button:focus {
   outline: none;
 }
 
-/* Botones rojos */
+/* Botones rojos: C, CE, = */
 button.red {
   background-color: #b80505 !important;
   color: white;
@@ -86,11 +86,17 @@ button.red:active {
   background-color: #ff1a1a !important;
 }
 
-/* Botones naranjas */
+/* Botones naranjas: √, x², 1/x, +, -, *, / */
 button.orange {
   background-color: #fa7426 !important;
   color: white;
 }
+
+button.orange:hover,
+button.orange:active {
+  background-color: #ff944d !important;
+}
+
 
 button.orange:hover,
 button.orange:active {
