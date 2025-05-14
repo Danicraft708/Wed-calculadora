@@ -1,10 +1,10 @@
 :root {
-  --bg-color: #000000;
+  --bg-color: #1e1e2f;
   --text-color: #ffffff;
   --btn-bg: #838383;
   --btn-hover: #b80505;
   --display-bg: #9add80;
-  --calculator-bg: #1e1e2f; /* Calculadora blanca en modo oscuro */
+  --calculator-bg: #1e1e2f; /* Calculadora en modo oscuro */
 }
 
 body.light-mode {
