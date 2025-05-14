@@ -85,13 +85,13 @@ button:nth-child(23)
   --calculator-bg: #000000;	
 }
 
-.light-mode {
+body.light-mode {
   --bg-color: #ffffff;
   --text-color: #000000;
   --btn-bg: #cccccc;
   --btn-hover: #ff6666;
   --display-bg: #d4fcd9;
-  --calculator-bg: #ffffff; 	
+  --calculator-bg: #ffffff;
 }
 
 body {
